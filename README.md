@@ -1,8 +1,9 @@
-Description:
+### LinkedIn Parody Portfolio
 
-     A dynamic and interactive website that serves as my
-      professional portfolio resembling the format and functionality of LinkedIn. It
-      would be like a parody version of linkedin debiting my resume. A satirical
-      approach emulating LinkedIn's complexity.
+A dynamic and interactive website serving as my professional portfolio, designed in a satirical style similar to LinkedIn. This project mimics LinkedIn's complexity while showcasing my resume and skills in a unique way.
 
-Name: Suresh Raja Selvadurai
+![Profile](src/images/utilities/sc.png)
+
+---
+
+**Name:** Suresh Raja Selvadurai
