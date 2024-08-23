@@ -1,0 +1,23 @@
+<html lang="">
+<body>
+<form id="f">
+    Name: <input name='name'><br>
+    Email: <input name='email'><br>
+    Level: <input type='radio' name='l' value='BS'>BS <input type='radio' name='l' value='MS'>MS<br>
+    Classes: <input name='c'><br>
+    Expectation: <textarea name='e'></textarea><br>
+    <button type='button' onclick='download()'>Submit</button>
+</form>
+<script>
+    function download() {
+        var f = document.getElementById('f');
+        var data = [f.name.value, f.email.value, f.l.value, f.c.value, f.e.value].join(',');
+        var csv = 'data:text/csv;charset=utf-8,Name,Email,Level,Classes,Expectation\n' + data;
+        var link = document.createElement('a');
+        link.href = encodeURI(csv);
+        link.download = 'data.csv';
+        link.click();
+    }
+</script>
+</body>
+</html>
