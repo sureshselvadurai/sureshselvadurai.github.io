@@ -1,8 +1,8 @@
-### LinkedIn Parody Portfolio
+### About Me
 
-A dynamic and interactive website serving as my professional portfolio, designed in a satirical style similar to LinkedIn. This project mimics LinkedIn's complexity while showcasing my resume and skills in a unique way.
+Machine Learning Engineer at SelectDr in San Francisco, building healthcare recommendation systems and applied LLM products. M.S. in Computer Science from the University of San Francisco. Previously at Guardant Health, KPMG, and Kissht.
 
-![Profile](src/images/utilities/sc.png)
+This repo is the source for my personal portfolio site — plain HTML/CSS/JS, no build step, deployed via GitHub Pages.
 
 ---
 
